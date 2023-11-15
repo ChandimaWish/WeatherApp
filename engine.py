@@ -14,6 +14,7 @@ class Engine(Process):
 
     def run(self):
 
+        
         image = self.images.get()  
         while True:
             file_name = image.split("/")[-1]
